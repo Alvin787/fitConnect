@@ -8,6 +8,7 @@ import Chats from "./Chats"
 import Login from "./Login"
 import Navbar from "./Navbar/Navbar"
 import Profile from "./Profile"
+import Connect from "./Connect"
 
 
 function App() {
@@ -17,9 +18,10 @@ function App() {
         <AuthProvider>
         <Navbar/>
           <Switch>
+            <Route path="/connect" component={Connect} />
             <Route path="/chats" component={Chats} />
-            <Route exact path="/" component={Login} />
-            <Route exact path="/profile" component={Profile}/>
+            <Route path="/profile" component={Profile}/>
+            <Route path="/" component={Login} />
           </Switch>
         </AuthProvider>
       </Router>
