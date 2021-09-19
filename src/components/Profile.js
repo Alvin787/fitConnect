@@ -46,13 +46,13 @@ const Profile = () => {
         {loading ? (
           <p>loading</p>
         ) : (
-          <div>
+          <div className={styles.align}>
             <img className={styles.image} src={user.avatar} ></img>
-            <p>{user.username}</p>
-            <p>{age}</p>
-            <p>{pronouns}</p>
-            <p>{weight}</p>
-            <p>{goal}</p>
+            <p className={styles.username}>{user.username}</p>
+            <p className={styles.age}>Age:{age}</p>
+            <p className={styles.pronouns}>Pronouns:{pronouns}</p>
+            <p className={styles.weight}>Weight:{weight} kg</p>
+            <p className={styles.goal}>My goal:{goal}</p>
           </div>
         )}
       </Card>
