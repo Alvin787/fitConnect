@@ -16,6 +16,9 @@ const Profile = () => {
     axios
       .get("https://api.chatengine.io/users/me", {
         headers: { "private-key": process.env.REACT_APP_CHAT_ENGINE_KEY },
+        header: 'Project-ID: {{project_id}}',
+        header: 'User-Name: {{user_name}}', 
+        header: 'User-Secret: {{user_secret}}'
       })
 
       .then((resp) => {
