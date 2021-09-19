@@ -16,7 +16,7 @@ const Home = () => {
         history.push('/');
     } */
     return(
-        <div className="chats-page">
+        <div /* className="chats-page" */>
             <div className="nav-bar">
                 <div className="logo-tab">
                     fitConnect

@@ -22,6 +22,7 @@ const Chats = () => {
         history.push('/');
     }
 
+
     const getFile = async (url) => {
         const response = await fetch(url);
         const data = await response.blob();
@@ -73,15 +74,18 @@ const Chats = () => {
 
 
     return(
-        <div className="chats-page">
-            <div className="nav-bar">
+        <div /* className="chats-page" */>
+{/*             <div className="nav-bar">
                 <div className="logo-tab">
                     fitConnect
                 </div>
                 <div onClick={handleLogout}className="logout-tab">
                     Logout
                 </div>
-            </div>
+                
+                
+
+            </div> */}
             <ChatEngine 
                 height="calc(100vh - 66px)"
                 projectID={process.env.REACT_APP_CHAT_ENGINE_ID}

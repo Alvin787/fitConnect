@@ -16,7 +16,7 @@ export const AuthProvider = ({ children }) => {
             setUser(user);
             setLoading(false);
 
-            if(user) history.push('/chats');
+            if(!user) history.push('/');
 
 
         })
