@@ -24,6 +24,4 @@ export const auth = firebase.initializeApp( {
     appId: "1:301271393586:web:8f3c5ce169eac86714632b"
   }).auth();
 
-  const db = initFirebase.firestore();
-
-  export default db;
+ 
