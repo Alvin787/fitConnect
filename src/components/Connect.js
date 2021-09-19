@@ -32,8 +32,11 @@ const Connect = () => {
           {users.map((users) => {
             return (
               <Card className={styles.main}>
-                <img src={users.avatar}></img>
-                <p>{users.username}</p>
+                <div className={styles.general}>
+                  <img className={styles.newAvatar}src={users.avatar}></img>
+                  <p className={styles.emailThing}>{users.username}</p>
+                </div>
+                
               </Card>
             );
           })}
