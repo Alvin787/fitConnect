@@ -15,9 +15,49 @@
     padding: 0.5rem;
   }
 
+  .align{
+    text-align: center;
+  }
+
   .image{
     margin: 2rem auto;
     width: 30%;
     max-width: 40rem;
-    padding-left: 50px;
+    padding-left: 0px;
+  }
+
+  .username{
+    padding-right: 0px;
+    padding-bottom: 10px;
+    letter-spacing: 1.5px;
+    font-weight: 10;
+    font-size: 18px;
+  }
+
+  .age{
+    padding-bottom: 10px;
+    letter-spacing: 1.5px;
+    font-weight: 10;
+    font-size: 18px;
+  }
+
+  .pronouns{
+    padding-bottom: 10px;
+    letter-spacing: 1.5px;
+    font-weight: 10;
+    font-size: 18px;
+  }
+
+  .weight{
+    padding-bottom: 10px;
+    letter-spacing: 1.5px;
+    font-weight: 10;
+    font-size: 18px;
+  }
+
+  .goal{
+    padding-bottom: 10px;
+    letter-spacing: 1.5px;
+    font-weight: 10;
+    font-size: 18px;
   }
