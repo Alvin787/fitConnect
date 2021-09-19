@@ -6,8 +6,6 @@ import styles from "./Profile.module.css";
 const Connect = () => {
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
- 
-
 
   useEffect(() => {
     axios
@@ -33,10 +31,9 @@ const Connect = () => {
             return (
               <Card className={styles.main}>
                 <div className={styles.general}>
-                  <img className={styles.newAvatar}src={users.avatar}></img>
+                  <img className={styles.newAvatar} src={users.avatar}></img>
                   <p className={styles.emailThing}>{users.username}</p>
                 </div>
-                
               </Card>
             );
           })}
