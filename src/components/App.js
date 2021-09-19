@@ -6,7 +6,7 @@ import { AuthProvider } from "../contexts/AuthContext";
 
 import Chats from "./Chats"
 import Login from "./Login"
-import Home from "./Home"
+import Navbar from "./Navbar/Navbar"
 
 
 function App() {
@@ -14,11 +14,10 @@ function App() {
     <div style={{ fontFamily: 'Avenir' }}>
       <Router>
         <AuthProvider>
-        <Home/>
+        <Navbar/>
           <Switch>
             <Route path="/chats" component={Chats} />
-            <Route path="/" component={Login} />
-            
+            <Route exact path="/" component={Login} />
           </Switch>
         </AuthProvider>
       </Router>

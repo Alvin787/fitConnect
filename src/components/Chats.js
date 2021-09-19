@@ -16,11 +16,11 @@ const Chats = () => {
 
 
 
-    const handleLogout = async () => {
+/*     const handleLogout = async () => {
         await auth.signOut();
 
         history.push('/');
-    }
+    } */
 
 
     const getFile = async (url) => {
