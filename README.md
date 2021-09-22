@@ -1,4 +1,4 @@
-# fitConnect
+# fitConnect (Submission for Hack the North 2021)
  fitConnect, an accessible fitness app that connects users based on similar goals and stats.
 
 Inspiration
