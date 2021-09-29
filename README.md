@@ -1,4 +1,5 @@
 # fitConnect (Submission for Hack the North 2021)
+https://devpost.com/software/fitconnect-fopluj?ref_content=user-portfolio&ref_feature=in_progress
  fitConnect, an accessible fitness app that connects users based on similar goals and stats.
 
 ## Inspiration
