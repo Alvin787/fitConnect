@@ -1,6 +1,7 @@
 # fitConnect (Submission for Hack the North 2021)
 https://devpost.com/software/fitconnect-fopluj?ref_content=user-portfolio&ref_feature=in_progress
- fitConnect, an accessible fitness app that connects users based on similar goals and stats.
+
+fitConnect, an accessible fitness app that connects users based on similar goals and stats.
 
 ## Inspiration
 Our inspiration for fitConnect came from experiences of wanting to get into fitness but not having the right mindset to do so or being too nervous. fitConnect can help solve these issues that plague many people and prevent them from reaching the best version of themselves. We were reminded that exercising and practicing healthy lifestyles became much easier with fellow peers, family, friends, or team members. When you have other people around you with the same goals and interests, exercise turns from a solo, draining, and lonely activity into a collaborative and supportive time to spend with friends and enjoy together.
